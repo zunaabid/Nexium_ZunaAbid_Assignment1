@@ -3,10 +3,12 @@
 import { useState } from 'react'
 import QuoteForm from './QuoteForm'
 import QuoteCard from './QuoteCard'
-import { quotes } from './quotes'
+import quotes from "./quotes"
 
 export default function HomePage() {
   const [result, setResult] = useState([])
+  console.log("Quotes loaded:", quotes)
+
 
   const handleSearch = (topic) => {
     const matched = quotes
