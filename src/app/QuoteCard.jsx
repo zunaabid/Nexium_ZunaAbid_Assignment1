@@ -1,4 +1,4 @@
-import "./quoteCard.css"
+import "./QuoteCard.css"
 
 
 export default function QuoteCard({ text }) {
