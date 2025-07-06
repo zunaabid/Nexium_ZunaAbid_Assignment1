@@ -10,7 +10,7 @@ export default function QuoteForm({ onSubmit }) {
   return (
     <div className="flex gap-2 w-full max-w-md">
       <Input
-        placeholder="Enter topic e.g. inspiration"
+        placeholder="Enter topic e.g. funny"
         value={topic}
         onChange={(e) => setTopic(e.target.value)}
       />

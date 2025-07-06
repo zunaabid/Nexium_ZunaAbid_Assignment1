@@ -7,7 +7,6 @@ import quotes from "./quotes"
 
 export default function HomePage() {
   const [result, setResult] = useState([])
-  console.log("Quotes loaded:", quotes)
 
 
   const handleSearch = (topic) => {
