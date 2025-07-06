@@ -1,19 +1,8 @@
  const quotes = [
 
     // --- Funny ---
-  { topic: "funny", text: "I'm not arguing, I'm just explaining why I'm right. – Anonymous" },
-  { topic: "funny", text: "Behind every great man is a woman rolling her eyes. – Jim Carrey" },
-  { topic: "funny", text: "I used to think I was indecisive, but now I'm not too sure. – Anonymous" },
   { topic: "funny", text: "The road to success is always under construction. – Lily Tomlin" },
   { topic: "funny", text: "I am so clever that sometimes I don't understand a single word of what I am saying. – Oscar Wilde" },
-  { topic: "funny", text: "I'm not superstitious, but I am a little stitious. – Michael Scott (The Office)" },
-  { topic: "funny", text: "A day without sunshine is like, you know, night. – Steve Martin" },
-  { topic: "funny", text: "I love deadlines. I love the whooshing noise they make as they go by. – Douglas Adams" },
-  { topic: "funny", text: "Why do they call it rush hour when nothing moves? – Robin Williams" },
-  { topic: "funny", text: "Common sense is like deodorant. The people who need it most never use it. – Anonymous" },
-  { topic: "funny", text: "I'm not arguing, I'm just explaining why I'm right. – Anonymous" },
-  { topic: "funny", text: "Behind every great man is a woman rolling her eyes. – Jim Carrey" },
-  { topic: "funny", text: "I used to think I was indecisive, but now I'm not too sure. – Anonymous" },
   { topic: "funny", text: "I love deadlines. I love the whooshing noise they make as they go by. – Douglas Adams" },
 
   // --- Sarcasm ---
@@ -51,10 +40,10 @@
   { topic: "coffee", text: "Espresso yourself! – Every barista punster" },
   { topic: "coffee", text: "Decaf? No, I need my bean juice with purpose. – Anonymous" },
 
-  // --- Adulting ---
-  { topic: "adulting", text: "Being an adult is just walking around wondering what you forgot. – Anonymous" },
-  { topic: "adulting", text: "Why does no one tell you being an adult is mostly Googling how to do things? – Anonymous" },
-  { topic: "adulting", text: "Laundry: the never-ending boss fight of adulthood. – Anonymous" },
+  // --- Adult ---
+  { topic: "adult", text: "Being an adult is just walking around wondering what you forgot. – Anonymous" },
+  { topic: "adult", text: "Why does no one tell you being an adult is mostly Googling how to do things? – Anonymous" },
+  { topic: "adult", text: "Laundry: the never-ending boss fight of adulthood. – Anonymous" },
 
   // --- Tech ---
   { topic: "tech", text: "Any sufficiently advanced technology is indistinguishable from magic. – Arthur C. Clarke" },
