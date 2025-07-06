@@ -49,3 +49,24 @@
   margin-top: 1rem;
   padding-left: 2rem;
 }
+
+.copy-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #0ea5e9;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease;
+  border: none;
+  font-family: sans-serif;
+  pointer-events: none; /* Prevent clicks when hidden */
+}
+
+.quote-card:hover .copy-button {
+  opacity: 1; /* Show on hover */
+  pointer-events: auto; /* Enable click */
+}
